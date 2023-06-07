@@ -1,6 +1,0 @@
-{
-    "editor.wordWrap": "wordWrapColumn",
-"editor.wordWrapColumn": 100,
-    "tailwindCSS.codeActions": true,
-    "dart.analyzeAngularTemplates": false
-}
