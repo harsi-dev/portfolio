@@ -29,13 +29,12 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-row items-center justify-center pt-4">
+        <div className="flex flex-row items-center justify-center pt-4 space-x-2">
           <a
             href="
                 https://www.linkedin.com/in/dhaliwal-h/"
             target="_blank"
             rel="noopener noreferrer"
-            className="pr-2"
           >
             <svg
               viewBox="0 0 24 24"
@@ -54,7 +53,6 @@ export default function Home() {
               https://www.github.com/dhaliwal-h/"
             target="_blank"
             rel="noopener noreferrer"
-            className="pl-2 pr-2"
           >
             <svg
               height="32"
@@ -73,7 +71,6 @@ export default function Home() {
             href="https://twitter.com/dhaliwal__h"
             target="_blank"
             rel="noopener noreferrer"
-            className="pl-2"
           >
             <svg
               height="32"
@@ -92,7 +89,6 @@ export default function Home() {
             href="https://hdyadu.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="pl-2"
           >
             <svg
               height="32"
