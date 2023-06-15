@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-row items-center justify-center space-x-6 ">
           <div className="align-middle justify-center">
             <img
-              className="w-24 h-24 rounded-2xl m-4 mx-auto"
+              className="w-24 rounded-2xl m-4 mx-auto"
               src="/images/headshot.jpeg"
               alt=""
               width="384"
