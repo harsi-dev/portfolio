@@ -24,7 +24,7 @@ export default function Home() {
               Harsimranjit Dhaliwal
             </h1>
             <h2 className="text-xl  text-center text-white ">
-              Flutter Developer
+              Technology Enthusiast
             </h2>
           </div>
         </div>
