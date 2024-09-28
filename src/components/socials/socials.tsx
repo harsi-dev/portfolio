@@ -3,7 +3,6 @@ import DiscordTooltip from "./DiscordTooltip";
 export default function Socials() {
   return (
     <div className="mt-2 flex justify-center space-x-2">
-      <DiscordTooltip />
       <a
         href="
           https://www.linkedin.com/in/harsimran-d"
@@ -96,6 +95,7 @@ export default function Socials() {
           </g>
         </svg>
       </a>
+      <DiscordTooltip />
     </div>
   );
 }
