@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-// @ts-ignore
+
 import { ClipboardIcon, CheckIcon } from "@heroicons/react/24/solid";
 
 const DiscordTooltip: React.FC = () => {
