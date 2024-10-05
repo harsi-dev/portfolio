@@ -6,7 +6,7 @@ import { ClipboardIcon, CheckIcon } from "@heroicons/react/24/solid";
 const DiscordTooltip: React.FC = () => {
   const [isCopied, setIsCopied] = useState<boolean>(false);
   const [tooltipVisible, setTooltipVisible] = useState<boolean>(false);
-  const discordUsername: string = "harsimran0123";
+  const discordUsername: string = "harsimran_d";
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(discordUsername);
