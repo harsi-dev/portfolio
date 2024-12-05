@@ -1,8 +1,6 @@
-import DiscordTooltip from "./DiscordTooltip";
-
 export default function Socials() {
   return (
-    <div className="mt-2 flex justify-center space-x-2">
+    <div className="mt-2 flex justify-center space-x-2 text-white">
       <a
         href="
           https://www.linkedin.com/in/harsimran-d"
@@ -58,20 +56,7 @@ export default function Socials() {
           <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
         </svg>
       </a>
-      <a href="https://hdyadu.com" target="_blank" rel="noopener noreferrer">
-        <svg
-          height="32"
-          aria-hidden="true"
-          version="1.1"
-          width="32"
-          focusable="false"
-          viewBox="0 20 160 120"
-          data-supported-dps="24x24"
-          fill="currentColor"
-        >
-          <path d="M0 80l0-80 80 0 80 0 0 80 0 80-80 0-80 0 0-80zm30 30c0-11 7-20 15-20 8 0 15 9 15 20 0 11 5 20 10 20 6 0 10-22 10-50 0-27-4-50-10-50-5 0-10 9-10 20 0 11-7 20-15 20-8 0-15-9-15-20 0-11-4-20-10-20-5 0-10 23-10 50 0 28 5 50 10 50 6 0 10-9 10-20zm108 8c7-7 12-24 12-38 0-30-17-50-42-50-15 0-18 9-18 50 0 41 3 50 18 50 10 0 23-5 30-12zM114.34 99.171A1 1 0 00114.542 64.298M115.109 99.171 114.724 64.184" />
-        </svg>
-      </a>
+
       {/* Email mailto: link for harsimran_d@icloud.com */}
       <a href="mailto:harsimran_d@icloud.com">
         <svg
@@ -95,7 +80,6 @@ export default function Socials() {
           </g>
         </svg>
       </a>
-      <DiscordTooltip />
     </div>
   );
 }
