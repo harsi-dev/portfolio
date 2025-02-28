@@ -4,7 +4,7 @@
 
 @custom-variant dark (&:is(.dark *));
 body {
-  background-color: rgb(20, 20, 20);
+  @apply bg-gray-950;
 }
 
 :root {
