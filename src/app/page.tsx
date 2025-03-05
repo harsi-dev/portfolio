@@ -1,6 +1,6 @@
-import LiveDemoButton from "@/components/buttons/LiveDemoButton";
 import SourceCodeButton from "@/components/buttons/SourceCodeButton";
 import Socials from "@/components/socials/socials";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -25,9 +25,30 @@ export default function Home() {
             <p className="text-left text-gray-400">
               Realtime multiplayer game built with Flutter & Go.
             </p>
-            <div className="mt-4 flex justify-start gap-4">
-              <LiveDemoButton link="https://harsimran.xyz/ludo" />
-              <SourceCodeButton link="https://github.com/harsimran-d/ludo_flutter" />
+            <div className="mt-4 flex flex-col items-start justify-start">
+              <div>
+                <SourceCodeButton link="https://github.com/harsimran-d/ludo_flutter" />
+              </div>
+              <div className="flex flex-row flex-wrap items-center justify-start">
+                <Link
+                  href="https://apps.apple.com/in/app/ludo-sudo/id6738285746"
+                  target="_blank"
+                >
+                  <img
+                    className="box-border h-11"
+                    src={"/images/app_store.svg"}
+                  />
+                </Link>
+                <Link
+                  href="https://play.google.com/store/apps/details?id=com.hdyadu.ludo_sudo"
+                  target="_blank"
+                >
+                  <img
+                    className="box-border h-16"
+                    src={"/images/google-play-badge.png"}
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
