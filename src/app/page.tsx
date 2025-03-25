@@ -7,7 +7,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col items-center justify-center p-8 text-white">
       <section className="text-center">
         <h1 className="mb-4 text-4xl font-bold">
-          Harsimran | Full-Stack Developer
+          Harsi | Full-Stack Developer
         </h1>
         <p className="mb-6 text-lg text-gray-400">
           Building scalable, high-performance web applications.
@@ -27,7 +27,7 @@ export default function Home() {
             </p>
             <div className="mt-4 flex flex-col items-start justify-start">
               <div>
-                <SourceCodeButton link="https://github.com/harsimran-d/ludo_flutter" />
+                <SourceCodeButton link="https://github.com/harsi-dev/ludo_flutter" />
               </div>
               <div className="flex flex-row flex-wrap items-center justify-start">
                 <Link

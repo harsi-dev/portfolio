@@ -3,7 +3,7 @@ export default function Socials() {
     <div className="mt-2 flex justify-center space-x-2 text-gray-200">
       <a
         href="
-          https://www.linkedin.com/in/harsimran-d"
+          https://www.linkedin.com/in/harsi-dev"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -21,7 +21,7 @@ export default function Socials() {
 
       <a
         href="
-        https://www.github.com/harsimran-d/"
+        https://www.github.com/harsi-dev/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -39,7 +39,7 @@ export default function Socials() {
         </svg>
       </a>
       <a
-        href="https://x.com/harsimran_d"
+        href="https://x.com/harsi_dev"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -58,7 +58,7 @@ export default function Socials() {
       </a>
 
       {/* Email mailto: link for harsimran_d@icloud.com */}
-      <a href="mailto:harsimran_d@icloud.com">
+      <a href="mailto:harsimranyadu@gmail.com">
         <svg
           fill="currentColor"
           height="32"

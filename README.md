@@ -1,1 +1,1 @@
-# Harsimranjit Dhaliwal's Portfolio
+# Harsi Dhaliwal's Portfolio
