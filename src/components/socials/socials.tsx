@@ -1,6 +1,6 @@
 export default function Socials() {
   return (
-    <div className="mt-2 flex justify-center space-x-2 text-gray-200">
+    <div className="mt-2 flex justify-center space-x-2 text-gray-800">
       <a
         href="
           https://www.linkedin.com/in/harsi-dev"
